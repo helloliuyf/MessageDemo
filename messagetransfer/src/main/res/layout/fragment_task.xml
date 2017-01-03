@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp75" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!--圈子和发现-->
+            <TextView
+                android:id="@+id/message_tv_GroupAndFind"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="圈子&amp;发现"
+                android:textColor="@color/selector_title_state"
+                android:textSize="@dimen/title_size"/>
+
+            <View
+                android:layout_width="@dimen/dp1"
+                android:layout_height="match_parent"
+                android:background="@color/view_line"/>
+            <!--商城和服务-->
+            <TextView
+                android:id="@+id/message_tv_StoreAndService"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="商城&amp;服务"
+                android:textColor="@color/selector_title_state"
+                android:textSize="@dimen/title_size"/>
+
+            <View
+                android:layout_width="@dimen/dp1"
+                android:layout_height="match_parent"
+                android:background="@color/view_line"/>
+
+            <!--系统消息-->
+            <TextView
+                android:id="@+id/message_tv_System"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="系统消息"
+                android:textColor="@color/selector_title_state"
+                android:textSize="@dimen/title_size"/>
+        </LinearLayout>
+        <!--指示线-->
+        <View
+            android:id="@+id/indicatrix"
+            android:layout_width="@dimen/dp60"
+            android:layout_height="@dimen/dp6"
+            android:layout_alignParentBottom="true"
+            android:background="@color/view_line_blue"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:layout_alignParentBottom="true"
+            android:background="@color/view_line"/>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/message_vp"
+        android:layout_marginTop="@dimen/dp15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

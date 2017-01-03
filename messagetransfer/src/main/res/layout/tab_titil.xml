@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout14443A"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+                <TextView 
+            android:id="@+id/textViewTab14443a"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:textColor="@color/tabSelect"
+            android:text="@string/iso14443a"
+            style="@style/TabStyle"
+            />
+        <View 
+            android:id="@+id/view14443a"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:background="@color/tabSelect"
+            android:layout_weight="1"/>
+    </LinearLayout>
+        <View 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.01"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/gray"/>
+        <LinearLayout
+        android:id="@+id/linearLayout15693"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+                <TextView 
+            android:id="@+id/textViewTa15693"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="@string/iso15693"
+            style="@style/TabStyle"
+            />
+        <View 
+            android:id="@+id/view15693"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

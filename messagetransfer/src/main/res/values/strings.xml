@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MessageTransfer</string>
+
+    <string name="id">ID</string>
+    <string name="barcode">BarCode</string>
+    <string name="count">Count</string>
+    <string name="barcodeCount">Barcode Count: </string>
+    <string name="scan">Scan</string>
+    <string name="exitSystem">Please press back key again, exit</string>
+    <string name="action_settings">串口参数设置</string>
+    <string name="setting">设置</string>
+    <string name="iso14443a">14443A</string>
+    <string name="iso15693">15693</string>
+    <string name="serialport">串口：</string>
+    <string name="buadrate">波特率：</string>
+    <string name="power">电源：</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="exit">退出</string>
+    <string name="uid">UID：</string>
+    <string name="sector">扇区：</string>
+    <string name="block">块号：</string>
+    <string name="password_a">密码A</string>
+    <string name="password_b">密码B</string>
+    <string name="password">密码：</string>
+    <string name="readData">读数据(HEX)</string>
+    <string name="writeData">写数据(HEX)</string>
+    <string name="findcard">寻卡</string>
+    <string name="auth">认证</string>
+    <string name="startArr">起始块：</string>
+    <string name="blocks">块数量：</string>
+    <string name="selectCard">选择卡片</string>
+    <string name="findCardCount">发现卡数量：</string>
+    <string name="selectCardUID">选择卡片：</string>
+    <string name="set">设置</string>
+    <string name="singleBlockLen">单块长（byte）：</string>
+    <string name="getCardInfo">读取卡片信息</string>
+    <string name="clear">清除</string>
+    <string name="selectBlock">选择读写块：</string>
+    <string name="current_setting">当前串口设置：</string>
+    <string name="tips_init_serialport_fail">温馨提示：请在“设置”中，先打开串口再进行操作。</string>
+    <string name="tips_find_card">请先进行寻卡操作</string>
+    <string name="tips_input_right_data">请输入8位十六进制数据</string>
+
+</resources>

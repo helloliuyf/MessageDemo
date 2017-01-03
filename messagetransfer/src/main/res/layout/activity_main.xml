@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lyf.messagetransfer.ui.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_VP"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"/>
+
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <!--任务-->
+        <RadioButton
+            android:id="@+id/main_rb_task"
+            style="@style/sh_RadioButton"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="任务" />
+        <!--巡检-->
+        <RadioButton
+            android:id="@+id/main_rb_inspection"
+            style="@style/sh_RadioButton"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="巡检"/>
+
+        <!--设备-->
+        <RadioButton
+            android:id="@+id/main_rb_device"
+            style="@style/sh_RadioButton"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="设备"/>
+
+        <!--我的-->
+        <RadioButton
+            android:id="@+id/main_rb_my"
+            style="@style/sh_RadioButton"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="巡检"/>
+
+    </RadioGroup>
+</LinearLayout>
